@@ -1,0 +1,122 @@
+ *{
+	border: 0 none;
+	font-size: 12px;
+	font-weight: normal;
+	list-style: none outside none;
+	margin: 0;
+	outline: 0 none;
+	padding: 0;
+	text-decoration: none;
+	color:#444;
+	line-height:150%;
+	}
+html{font-family:微软雅黑,宋体,'Helvetica Neue',Arial,'Liberation Sans',FreeSans,'Hiragino Sans GB',sans-serif;}
+body{background:url("../img/bg.png") repeat ;}
+
+a{text-decoration:none;}
+div.headImg img{width:100%;height:auto;}
+
+div.banner{width:100%;padding:10px 0px;background-color:#FFF;}
+div.banner_cnt{width:90%;text-align: center;margin:0 auto;}
+div.banner_cnt li {
+	list-style:none; 
+	float:left;
+	width:13.7%;
+	font-size:16px;
+	font-family: 微软雅黑,宋体,Arial;
+	text-align: center;
+}
+div.banner_cnt a {font-size:16px;}
+div.banner_cnt a:hover, div.banner_cnt a:active,.onSelected a{border-bottom: 5px solid #CBD500;}
+
+
+div.banner_cnt li span {margin-left:6px;font-family: 'Hero Light', 'Segoe UI Light','Weston Light Free','Josefin Sans', 'Museo Sans', 'Futura', Arial;font-size:12px;}
+div.clear{clear:both;}
+div.bottom p,div.bottom a,div.bottom span {
+	font-family: 'Georgia', Times New Roman, serif;
+	font-style: italic;
+	font-size: 10px;
+	color: #BCBCB5;
+	text-align: center;
+	padding: 10px 0px;
+	text-shadow: -1px 1px white;
+}
+div.bottom a:hover,div.bottom a:active{color:#FF5E99;}
+
+p{
+	font: inherit;
+	vertical-align: baseline;
+	list-style: none;
+	display: block;
+	-webkit-margin-before: 1em;
+	-webkit-margin-after: 1em;
+	-webkit-margin-start: 0px;
+	-webkit-margin-end: 0px;
+}
+::selection {
+	background: #FF5E99;
+	color: white;
+	text-shadow: none;
+}
+.content{width:940px;margin:20px auto;}
+.content a {color:#68BCA5;font-size:16px;}
+.content a:hover{border-bottom: 2px solid #FF5E99;}
+#datatime {width:100%;font-family: 微软雅黑,宋体;}
+#datetime li {float:left;font-size:16px;}
+#datetime li.left{background-color:#FFF;width:620px;margin-right:20px;padding:10px;min-height:166px; _height:166px;}
+
+#datetime li.right{width:260px;}
+#datetime li.right ol#timeTitle{color:#FFF;background-color:#feb252;padding:8px;font-size:16px;}
+#datetime li.right ol#timesShow{color:#FFF;margin-top:6px;background-color:#feb252;padding:8px; height:124px;font-size:50px;padding-top:26px;}
+#timesShow span{
+	font-family: 微软雅黑,宋体,'Helvetica Neue',Arial,'Liberation Sans',FreeSans,'Hiragino Sans GB',sans-serif;
+	font-style: italic;
+	font-size: 18px;
+	color: white;
+	text-shadow: none;
+}
+#time{color:#c21017;font-size:20px;margin:0px 2px 0px 2px;}
+.cd-time{color:#FFF;font-size:16px;}
+
+.singe{text-align: right;font-family:楷体;}
+
+div.coupleInfo {float:left;height:700px;margin-top:40px;}
+div.her{margin-right:10px;}
+div.coupleInfo h1 {font-size:14px;font-weight:bolder;margin-top:30px;}
+div.coupleInfo p {width:460px;line-height:200%;}
+div.her p {width:440px;}
+#bdcount img {display:none;}
+
+
+
+#proposal {width:100%;font-family: 微软雅黑,宋体,Arial;}
+#proposal li {float:left;font-size:16px;}
+#proposal li.right{width:620px;background-color:#FFF;padding:10px;}
+#proposal li.left{background-color:#FFF;margin-right:20px;width:260px;padding:10px;min-height:166px; _height:166px;}
+#proposal li.left p{font-size:12px;line-height:200%;}
+div.TKS {width:100%;margin-top:20px;background-color:#FFF;padding:20px 0px;}
+div.TKS p{line-height:200%; margin:10px;}
+
+
+
+
+#rsvp,#msg {width:360px;margin-left:auto;margin-right:auto;}
+#msg p{height:16px;padding:6px;width:240px;text-align:center;}
+#error{background:#FF5E99;color:#FFF;}
+#succ{background:#369;color:#FFF;}
+
+.wedding{width:1000px;margin:1px auto;}
+.wedding a {color:#68BCA5;font-size:16px;}
+.wedding a:hover{border-bottom: 2px solid #FF5E99;}
+#map_canvas {margin-top:10px;width:600px;height:300px;position: absolute;}
+@media print {#map_canvas {height: 350px;}}
+#map_info,#map_canvas{float:left;color:#4F5E7C;}
+#map_info h1 {margin-top:20px;width:300px;font-size:14px;font-weight:bolder;}
+#map_info li {margin:10px;width:350px;color:#4F5E7C;list-style-type:circle;}
+.border{border-bottom: 1px solid white;border-top: 1px solid #BCBCBC;}
+#map_info a {font-size:12px;color:red;}
+#map_info a:hover, #map_info a:active{border-bottom: 1px solid #CBD500;}
+#wx_pic{float:left;margin:90px 0px 0px 60px;}
+
+.word_title{font-weight:bolder;font-size:12px;margin:0px;padding:0px;}
+
